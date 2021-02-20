@@ -25,34 +25,36 @@ class ReceiveMessage extends StatelessWidget {
           SizedBox(
             width: 12,
           ),
-          Container(
-            padding: EdgeInsets.symmetric(
-              vertical: 11,
-              horizontal: 20,
-            ),
-            decoration: BoxDecoration(
-              color: bubleChatBg,
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(20),
-                topRight: Radius.circular(20),
-                bottomRight: Radius.circular(20),
+          Flexible(
+            child: Container(
+              padding: EdgeInsets.symmetric(
+                vertical: 11,
+                horizontal: 20,
               ),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  textMessage,
-                  style: titleMessage,
+              decoration: BoxDecoration(
+                color: bubleChatBg,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20),
+                  topRight: Radius.circular(20),
+                  bottomRight: Radius.circular(20),
                 ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  time,
-                  style: subtitleTextStyle,
-                )
-              ],
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    textMessage,
+                    style: titleMessage,
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    time,
+                    style: subtitleTextStyle,
+                  )
+                ],
+              ),
             ),
           )
         ],

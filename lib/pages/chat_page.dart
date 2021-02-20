@@ -109,7 +109,8 @@ class ChatPage extends StatelessWidget {
                     ),
                     SendMessage(
                       imageUrl: 'assets/images/profiles.png',
-                      textMessage: 'How are you?',
+                      textMessage:
+                          'Thinking about how to deal with this client from hell...',
                       time: '2:30',
                     ),
                     ReceiveMessage(
@@ -118,23 +119,18 @@ class ChatPage extends StatelessWidget {
                       time: '23:11',
                     ),
                     ReceiveMessage(
-                      imageUrl: 'assets/images/friends_2.png',
-                      textMessage: 'Love them',
+                      imageUrl: 'assets/images/friends_1.png',
+                      textMessage: 'Lol',
+                      time: '23:11',
+                    ),
+                    SendMessage(
+                      imageUrl: 'assets/images/profiles.png',
+                      textMessage: 'Btw, what are you doing guys?',
                       time: '23:11',
                     ),
                     ReceiveMessage(
                       imageUrl: 'assets/images/friends_2.png',
-                      textMessage: 'Love them',
-                      time: '23:11',
-                    ),
-                    ReceiveMessage(
-                      imageUrl: 'assets/images/friends_2.png',
-                      textMessage: 'Love them',
-                      time: '23:11',
-                    ),
-                    ReceiveMessage(
-                      imageUrl: 'assets/images/friends_2.png',
-                      textMessage: 'Love them',
+                      textMessage: 'Working on project :)',
                       time: '23:11',
                     ),
                   ],
